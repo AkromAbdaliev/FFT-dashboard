@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Selection - Fantasy Football Toolkit</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        img{
+            width: 80px;
+        }
+        .player-list {
+            text-align: center; /* Aligning the section content to the center */
+        }
+
+        .player-grid {
+            display: inline-block; /* Ensuring the grid is displayed inline */
+            text-align: left; /* Aligning cards to the left within the grid */
+            background-color: green;
+        }
+
+        .card-row {
+            display: flex; /* Using flexbox for the card rows */
+            justify-content: center; /* Centering the card rows horizontally */
+            margin-bottom: 20px; /* Adding some space between card rows */
+        }
+
+        .player-card {
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            text-align: left; /* Aligning text within the cards to the left */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .player-card img {
+            max-width: 100%;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .player-card p {
+            margin-top: 0;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Include navigation or common header elements -->
+        <nav>
+            <!-- Your navigation content -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="player-list">
+            <h1>Automaticly Selected Players</h1>
+            <a href="index.html">Go Back to Main Menu</a>
+            <h2>4-3-3</h2>
+            <div class="player-grid">
+                <!-- First player centered at the top -->
+                <div class="card-row">
+                    <div class="player-card">
+
+                        <img src="assets/imgs/pope.jpeg" alt="Player 2">
+                        <h3>Nick Pope</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Goalkeeper</p>
+                        <p>Rating: <span class="status inProgress">7.9</span></p>
+                    </div>
+                </div>
+
+                <!-- Four cards in one line -->
+                <div class="card-row">
+                    <div class="player-card">
+                        <img src="assets/imgs/di_lorenzo.jpg" alt="Player 2">
+                        <h3>Di Lorenzo</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Right-back</p>
+                        <p>Rating: <span class="status delivered">9.1</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/saliba.webp" alt="Player 2">
+                        <h3>William Saliba</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Centre-back</p>
+                        <p>Rating: <span class="status inProgress">7.9</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/araujo.webp" alt="Player 2">
+                        <h3>Ronald Araujo</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Centre-back</p>
+                        <p>Rating: <span class="status inProgress">7.9</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/theo.webp" alt="Player 2">
+                        <h3>The Hernandes 2</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Left-back</p>
+                        <p>Rating: <span class="status delivered">8.9</span></p>
+                    </div>
+                </div>
+
+                <!-- Three cards in the next line -->
+                <div class="card-row">
+                    <div class="player-card">
+                        <img src="assets/imgs/frenkie.webp" alt="Player 2">
+                        <h3>Frenkie De Jong 2</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Central-mid</p>
+                        <p>Rating: <span class="status pending">8.8</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/kimmich.webp" alt="Player 2">
+                        <h3>Joshua Kimmich</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Defensive-mid</p>
+                        <p>Rating: <span class="status delivered">9.0</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/jd.webp" alt="Player 2">
+                        <h3>Jude Bellingham</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Central-mid</p>
+                        <p>Rating: <span class="status delivered">9.2</span></p>
+                    </div>
+                </div>
+
+                <!-- Three cards in the last line -->
+                <div class="card-row">
+                    <!-- Content for three player cards -->
+                    <div class="player-card">
+                        <img src="assets/imgs/saka.webp" alt="Player 2">
+                        <h3>Bukayo Saka</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Right-winger</p>
+                        <p>Rating: <span class="status pending">8.9</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/haaland.webp" alt="Player 2">
+                        <h3>Erling Haaland</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Forward</p>
+                        <p>Rating: <span class="status delivered">9.0</span></p>
+                    </div>
+                    <div class="player-card">
+                        <img src="assets/imgs/khvicha.webp" alt="Player 2">
+                        <h3>Khvicha Kvaratskhelia</h3>
+                        <p>Team: Your Team</p>
+                        <p>Position: Left-winger</p>
+                        <p>Rating: <span class="status pending">8.7</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Include common footer elements -->
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
